@@ -1,4 +1,4 @@
-![image](https://github.com/Sreeju7733/sreeju7733/assets/77568405/e033de59-e8c8-4622-8ac7-a561534fbc67)<h1 align="center">
+<h1 align="center">
 ### Hi there 👋
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"></h1>
   <img src="https://komarev.com/ghpvc/?username=sreeju7733&label=Profile%20Views&color=0e75b6&style=flat" align='right' alt="sreeju7733" />
