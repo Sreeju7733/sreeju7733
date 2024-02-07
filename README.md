@@ -3,9 +3,9 @@
   <img src="https://komarev.com/ghpvc/?username=sreeju7733&label=Profile%20Views&color=0e75b6&style=flat" align='right' alt="sreeju7733" />
 <br/>
 
-<p align="center">
- <img src="https://readme-typing-svg.herokuapp.com?lines=Just for you+I'll wait with love+until my last breath takes flight like a dove.&center=true&width=380&height=45"/>
-</p>
+
+![github contribution grid snake animation](https://raw.githubusercontent.com/shahradelahi/shahradelahi/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+![github contribution grid snake animation](https://raw.githubusercontent.com/shahradelahi/shahradelahi/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
 ## Let's Connect
 
@@ -16,6 +16,3 @@
 	<a href="https://www.instagram.com/sreeeejuu/" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/instagram.png" alt="Instagram"/></a>
 	<a href="mailto:sreeju.textme@outlook.com" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png" alt="Email"/></a>
 </p>
-
-![github contribution grid snake animation](https://raw.githubusercontent.com/shahradelahi/shahradelahi/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
-![github contribution grid snake animation](https://raw.githubusercontent.com/shahradelahi/shahradelahi/output/github-contribution-grid-snake.svg#gh-light-mode-only)
