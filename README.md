@@ -4,7 +4,7 @@
 <br/>
 
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=I'm Sreeju+&center=true&width=380&height=45"></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Just for you+I'll wait with love+until my last breath takes flight like a dove.&center=true&width=380&height=45"></a>
 </p>
 
 ## Let's Connect
@@ -13,7 +13,7 @@
 	<a href="https://sreeju77733.github.io/" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/web.png" alt="Portfolio"/></a>
 	<a href="https://github.com/sreeju7733" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/github.png" alt="GitHub"/></a>
 	<a href="https://dev.to/sreeju" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/web.png" alt="Blog"/></a>
-	<a href="https://www.instagram.com/sreeeeju/" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/instagram.png" alt="Instagram"/></a>
+	<a href="https://www.instagram.com/sreeeejuu/" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/instagram.png" alt="Instagram"/></a>
 	<a href="mailto:sreeju.textme@outlook.com" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png" alt="Email"/></a>
 </p>
 
