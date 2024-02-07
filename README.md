@@ -4,7 +4,7 @@
 <br/>
 
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Just for you+I'll wait with love+until my last breath takes flight like a dove.&center=true&width=380&height=45"></a>
+ <img src="https://readme-typing-svg.herokuapp.com?lines=Just for you+I'll wait with love+until my last breath takes flight like a dove.&center=true&width=380&height=45"/>
 </p>
 
 ## Let's Connect
