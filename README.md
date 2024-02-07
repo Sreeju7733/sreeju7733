@@ -13,7 +13,7 @@
 <p align="center">
 	<a href="https://sreeju77733.github.io/" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/web.png" alt="Portfolio"/></a>
 	<a href="https://github.com/sreeju7733" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/github.png" alt="GitHub"/></a>
-	<a href="https://dev.to/sreeju" target="_blank"><canvas data-v-5f0bd259="" class="editor-canvas__canvas" id="paper-view-0" style="-webkit-user-drag: none; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border-color: var(--c-black_200);" width="256" height="256"></canvas></a>
+	<a href="https://dev.to/sreeju" target="_blank">Dev.to</a>
 	<a href="https://www.instagram.com/sreeeeju/" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/instagram.png" alt="Instagram"/></a>
 	<a href="mailto:sreeju.textme@outlook.com" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png" alt="Email"/></a>
 </p>
