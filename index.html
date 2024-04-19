@@ -1,64 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Images Layout</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            display: flex;
-            flex-wrap: wrap;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sreeju - Certificate Gallery</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+  <style>
+    body {
+      background-color: #202020;
+      color: #fff;
+      font-family: 'PT Sans', sans-serif;
+    }
 
-        .image-container {
-            width: 50%; /* Two images side by side on desktop */
-            padding: 10px;
-            box-sizing: border-box;
-        }
+    .container.gallery-container {
+      border-radius: 20px;
+      padding: 30px;
+    }
 
-        .image-container img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-        }
+    .gallery-container h3 {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
 
-        @media (max-width: 768px) {
-            .image-container {
-                width: 100%; /* Images stack vertically on mobile */
-            }
-        }
-    </style>
+    .tz-gallery .row > div {
+      padding: 10px;
+    }
+
+    .tz-gallery .lightbox img {
+      width: 100%;
+      height: auto;
+      border-radius: 3%;
+      margin-bottom: 10px;
+    }
+
+    b{
+        color: #5e97d3;
+        text-decoration: none;
+    }
+
+  </style>
 </head>
 <body>
-    <div class="image-container">
-        <img src="https://certificates.cs50.io/2c93ffd9-177a-4187-9bb7-cac0780fa781.png?size=A4" alt="CS50 Certificate 1">
+<div class="container gallery-container">
+  <h3>Sreeju - Certificate Gallery</h3>
+
+  <div class="tz-gallery">
+    <div class="row">
+      <div class="col-sm-6">
+        <a class="lightbox" target="blank" href="https://certificates.cs50.io/2c93ffd9-177a-4187-9bb7-cac0780fa781">
+          <img src="https://certificates.cs50.io/2c93ffd9-177a-4187-9bb7-cac0780fa781.png?size=A4" alt="Certificate 1">
+          <b>CS50's Introduction to Programming with Python</b>
+          <p>Awarded from Cambridge, Massachusetts</p>
+        </a>
+      </div>
+      <div class="col-sm-6">
+        <a class="lightbox" target="blank" href="https://certificates.cs50.io/52e67efa-170d-475e-a751-a16dfe3f3c69">
+          <img src="https://certificates.cs50.io/52e67efa-170d-475e-a751-a16dfe3f3c69.png?size=A4" alt="Certificate 2">
+          <b>CS50's Puzzle Day</b>
+          <p>Awarded from Cambridge, Massachusetts</p>
+        </a>
+      </div>
     </div>
-    <div class="image-container">
-        <img src="https://certificates.cs50.io/52e67efa-170d-475e-a751-a16dfe3f3c69.png?size=A4" alt="CS50 Certificate 2">
-    </div>
+  </div>
+</div>
 
-    <!-- JavaScript to capture HTML content as an image -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
-    <script>
-        // Function to capture HTML content as an image
-        function captureAndDisplayAsImage() {
-            html2canvas(document.body).then(function(canvas) {
-                // Convert canvas to base64 encoded PNG image
-                var imageData = canvas.toDataURL('image/png');
-
-                // Display the captured image in a new window/tab
-                var imageWindow = window.open();
-                imageWindow.document.write('<img src="' + imageData + '">');
-            });
-        }
-
-        // Automatically capture and display as image when the page loads
-        window.onload = captureAndDisplayAsImage;
-    </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+  baguetteBox.run('.tz-gallery');
+</script>
 </body>
 </html>
