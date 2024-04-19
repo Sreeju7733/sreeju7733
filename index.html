@@ -41,5 +41,24 @@
     <div class="image-container">
         <img src="https://certificates.cs50.io/52e67efa-170d-475e-a751-a16dfe3f3c69.png?size=A4" alt="CS50 Certificate 2">
     </div>
+
+    <!-- JavaScript to capture HTML content as an image -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <script>
+        // Function to capture HTML content as an image
+        function captureAndDisplayAsImage() {
+            html2canvas(document.body).then(function(canvas) {
+                // Convert canvas to base64 encoded PNG image
+                var imageData = canvas.toDataURL('image/png');
+
+                // Display the captured image in a new window/tab
+                var imageWindow = window.open();
+                imageWindow.document.write('<img src="' + imageData + '">');
+            });
+        }
+
+        // Automatically capture and display as image when the page loads
+        window.onload = captureAndDisplayAsImage;
+    </script>
 </body>
 </html>
