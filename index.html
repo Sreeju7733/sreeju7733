@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .image-container {
+            width: 50%; /* Two images side by side on desktop */
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 768px) {
+            .image-container {
+                width: 100%; /* Images stack vertically on mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="https://certificates.cs50.io/2c93ffd9-177a-4187-9bb7-cac0780fa781.png?size=A4" alt="CS50 Certificate 1">
+    </div>
+    <div class="image-container">
+        <img src="https://certificates.cs50.io/52e67efa-170d-475e-a751-a16dfe3f3c69.png?size=A4" alt="CS50 Certificate 2">
+    </div>
+</body>
+</html>
