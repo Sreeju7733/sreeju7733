@@ -9,6 +9,9 @@
         <div style="flex: 1; max-width: 45%;">
             <img src="https://certificates.cs50.io/52e67efa-170d-475e-a751-a16dfe3f3c69.png?size=A4" alt="Certificate 2">
         </div>
+        <div style="flex: 1; max-width: 45%;">
+            <img src="https://github.com/Sreeju7733/sreeju7733/assets/77568405/a86af2d1-c95d-4d33-8cd5-6d014a69b8eb" alt="Certificate 1">
+        </div>
     </div>
     <b><a href="https://sreeju7733.github.io/sreeju7733/index.html">View All Certificates</a></b>
     <p align="center">
