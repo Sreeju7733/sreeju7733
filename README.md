@@ -3,15 +3,12 @@
     <h1 align="center">Hi there 👋</h1>
     <p align="center">Created Date: 17 Jan 2021, at 02:37:29 PM</p>
     <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 10px; margin-top: 20px;">
-        <div style="flex: 1; max-width: 45%;">
-            <img src="https://certificates.cs50.io/2c93ffd9-177a-4187-9bb7-cac0780fa781.png?size=A4" alt="Certificate 1">
-        </div>
-        <div style="flex: 1; max-width: 45%;">
-            <img src="https://certificates.cs50.io/52e67efa-170d-475e-a751-a16dfe3f3c69.png?size=A4" alt="Certificate 2">
-        </div>
-        <div style="flex: 1; max-width: 45%;">
-            <img src="https://github.com/Sreeju7733/sreeju7733/assets/77568405/a86af2d1-c95d-4d33-8cd5-6d014a69b8eb" alt="Certificate 1">
-        </div>
+        Certificate 1 CS50's Introduction to Programming with Python
+        Awarded from Cambridge, Massachusetts <b><a href="https://sreeju7733.github.io/sreeju7733/index.html">View Certificates</a></b>
+        Certificate 2 CS50's Puzzle Day
+        Awarded from Cambridge, Massachusetts <b><a href="https://sreeju7733.github.io/sreeju7733/index.html">View Certificates</a></b>
+        Certificate 3 FreeCodeCamp Responsive Web Design
+        Awarded by FreeCodeCamp.org <b><a href="https://sreeju7733.github.io/sreeju7733/index.html">View Certificates</a></b>
     </div>
     <b><a href="https://sreeju7733.github.io/sreeju7733/index.html">View All Certificates</a></b>
     <p align="center">
