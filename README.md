@@ -2,15 +2,7 @@
     <img src="https://komarev.com/ghpvc/?username=sreeju7733&label=Profile%20Views&color=0e75b6&style=flat" align='left' alt="sreeju7733" /><br>
     <h1 align="center">Hi there 👋</h1>
     <p align="center">Created Date: 17 Jan 2021, at 02:37:29 PM</p>
-    <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 10px; margin-top: 20px;">
-        Certificate 1 CS50's Introduction to Programming with Python
-        Awarded from Cambridge, Massachusetts <b><a href="https://sreeju7733.github.io/sreeju7733/index.html">View Certificates</a></b>
-        Certificate 2 CS50's Puzzle Day
-        Awarded from Cambridge, Massachusetts <b><a href="https://sreeju7733.github.io/sreeju7733/index.html">View Certificates</a></b>
-        Certificate 3 FreeCodeCamp Responsive Web Design
-        Awarded by FreeCodeCamp.org <b><a href="https://sreeju7733.github.io/sreeju7733/index.html">View Certificates</a></b>
-    </div>
-    <b><a href="https://sreeju7733.github.io/sreeju7733/index.html">View All Certificates</a></b>
+    <h3><a href="https://sreeju7733.github.io/sreeju7733/index.html">Take a look at Certificates Gallery</a></h3>
     <p align="center">
         <img src="https://raw.githubusercontent.com/shahradelahi/shahradelahi/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="github contribution grid snake animation">
         <img src="https://raw.githubusercontent.com/shahradelahi/shahradelahi/output/github-contribution-grid-snake.svg#gh-light-mode-only" alt="github contribution grid snake animation">
