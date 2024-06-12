@@ -2,7 +2,7 @@
     <img src="https://komarev.com/ghpvc/?username=sreeju7733&label=Profile%20Views&color=0e75b6&style=flat" align='left' alt="sreeju7733" /><br>
     <h1 align="center">Hi there 👋</h1>
     <p align="center">Created Date: 17 Jan 2021, at 02:37:29 PM</p>
-    <h3 style="font-size: 18px;"><a href="https://sreeju7733.github.io/sreeju7733/index.html">Take a look at my Certificates Gallery</a></h3>
+    <h3 style="font-size: 24px;"><a href="https://sreeju7733.github.io/sreeju7733/index.html">Take a look at my Certificates Gallery</a></h3>
     <a href="https://roadmap.sh"><img src="https://roadmap.sh/card/wide/6668730159bd70fae2fb5b87?variant=dark" alt="roadmap.sh"/></a>
     <p align="center">
         <img src="https://raw.githubusercontent.com/shahradelahi/shahradelahi/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="github contribution grid snake animation">
