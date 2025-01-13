@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Timetable To-Do</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .timetable {
+            margin: 20px auto;
+            max-width: 600px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .task {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .task:last-child {
+            border-bottom: none;
+        }
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Daily Timetable To-Do</h1>
+<div class="timetable" id="timetable">
+    <!-- Tasks will be dynamically added here -->
+</div>
+<button onclick="clearTasks()">Clear All Tasks</button>
+
+<script>
+    // Timetable tasks
+    const tasks = [
+        "6:00 - 6:30 AM: Wake up and freshen up.",
+        "6:30 - 7:15 AM: Study Math (Discrete Structures).",
+        "7:25 - 8:00 AM: Study English or Tamil.",
+        "9:00 - 9:50 AM: Study Computer Architecture.",
+        "10:00 - 10:50 AM: Study Proposal and Technical Usage.",
+        "11:00 AM - 12:30 PM: Revision or Creative Subjects.",
+        "2:30 - 3:20 PM: Revise Math (Discrete Structures).",
+        "3:30 - 4:30 PM: Study Tamil or Creative Projects.",
+        "5:00 - 6:00 PM: Exercise or bounce.",
+        "6:00 - 6:50 PM: Study Computer Architecture or Review.",
+        "8:00 - 8:50 PM: Light Revision or Reading.",
+        "9:00 - 10:30 PM: Relax, plan the next day."
+    ];
+
+    // Load tasks from cookies
+    function loadTasks() {
+        const taskContainer = document.getElementById("timetable");
+        taskContainer.innerHTML = ""; // Clear previous tasks
+
+        tasks.forEach((task, index) => {
+            const taskCompleted = getCookie(`task${index}`) === "true"; // Check if task is marked
+            const taskElement = document.createElement("div");
+            taskElement.className = "task";
+            taskElement.innerHTML = `
+                <label>
+                    <input type="checkbox" onchange="toggleTask(${index})" ${taskCompleted ? "checked" : ""}>
+                    ${task}
+                </label>
+            `;
+            taskContainer.appendChild(taskElement);
+        });
+    }
+
+    // Save task completion status in cookies
+    function toggleTask(index) {
+        const checkbox = document.querySelectorAll(".task input[type='checkbox']")[index];
+        setCookie(`task${index}`, checkbox.checked, 1); // Save for 1 day
+    }
+
+    // Clear all tasks
+    function clearTasks() {
+        tasks.forEach((_, index) => {
+            setCookie(`task${index}`, "", -1); // Delete the cookie
+        });
+        loadTasks();
+    }
+
+    // Cookie helper functions
+    function setCookie(name, value, days) {
+        const d = new Date();
+        d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
+        document.cookie = `${name}=${value};expires=${d.toUTCString()};path=/`;
+        const cookies = document.cookie.split("; ");
+        for (let i = 0; i < cookies.length; i++) {
+            const [key, value] = cookies[i].split("=");
+            if (key === name) return value;
+        }
+        return null;
+    }
+
+    // Initialize the task list
+    loadTasks();
+</script>
+
+</body>
+</html>
