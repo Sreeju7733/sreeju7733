@@ -22,7 +22,6 @@ Student<br>Internship
 ![](https://github-readme-stats.vercel.app/api?username=Sreeju7733&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Sreeju7733&theme=github_dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Sreeju7733&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)<br />
-<a href="https://roadmap.sh"><img src="https://roadmap.sh/card/wide/6668730159bd70fae2fb5b87?variant=dark" alt="roadmap.sh"/></a>
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Sreeju7733&theme=github_dark&no-frame=false&no-bg=true&margin-w=4)
