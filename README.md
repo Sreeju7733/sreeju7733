@@ -3,10 +3,10 @@
     <h1 align="center">Hi there 👋</h1>
     <p align="center">Created Date: 17 Jan 2021, at 02:37:29 PM</p>
     <h3 style="font-size: 24px;"><a href="https://sreeju7733.github.io/sreeju7733/index.html">Take a look at my Certificates Gallery</a></h3>
-    <p align="center">
+    <!-- p align="center">
         <img src="https://raw.githubusercontent.com/shahradelahi/shahradelahi/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="github contribution grid snake animation">
         <img src="https://raw.githubusercontent.com/shahradelahi/shahradelahi/output/github-contribution-grid-snake.svg#gh-light-mode-only" alt="github contribution grid snake animation">
-    </p>
+    </p -->
 </div>
 
 # 💫 About Me:
@@ -25,15 +25,14 @@ Student<br>Internship
 -->
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Sreeju7733&theme=github_dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Sreeju7733&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)<br />
-
+![](https://github-contribution-stats.vercel.app/api/?username=Sreeju7733)
+<!--
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Sreeju7733&theme=github_dark&no-frame=false&no-bg=true&margin-w=4)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Sreeju7733&limit=5&theme=dark&combine_all_yearly_contributions=true)
+-->
 
 ## 💰 You can help me by Donating
-  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/sreeju) 
+[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/sreeju) 
 
   
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
