@@ -9,7 +9,6 @@
 
 ## About Me:
 <h3 style="font-size: 24px;"><a href="https://sreeju7733.github.io/sreeju7733/index.html">Take a look at my Certificates Gallery</a></h3>
-Student<br>Internship
 
 
 
